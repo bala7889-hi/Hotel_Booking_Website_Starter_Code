@@ -4,6 +4,9 @@
 }
 #detail-img{
     margin-top: 2%;
+    background-color:rgb(132,136,139);
+    height:500px;
+    width:500px;
 }
 #hotel-form{
     margin-bottom: 1%;

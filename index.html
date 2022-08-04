@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/common.css" />
-        <link rel="stylesheet" href="./styles/index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <title>Index</title>
-</head>
-<body>
-  <div id="main-body">
-    <header>
-      <img
-        src="./assests/images/logo.png"
-        height="100px"
-        width="150px"
-        alt="logo"
-      />
-      <a href="./login.html">Login</a>
-    </header>
-    <div id="content">
-      <div id="search-bar">
-        <input
-          type="text"
-          name="city-search"
-          id="city-search"
-          placeholder="City"
-        />
+  </head>
+  <body>
+    <div id="main-body">
+      <header>
+        <div id="logo">
+          <img
+            src="./assests/images/logo.png"
+            height="100px"
+            width="150px"
+            alt="logo"
+          />
+        </div>
+        <div id="login">
+        <a href="./login.html">Login</a>
       </div>
+      </div>
+      </header>
+      <div id="content">
+        <div id="search-area">
+          <input
+            id="search-input"
+            type="text"
+            name="city-search"
+            placeholder="City"
+          />
+        </div>
         <div id="city-list">
-            <a href="./list.html"
-            ><img
-              class="city-img"
-              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-              alt="delhi"
-          /></a>
+          <a href="./list.html">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="delhi" class="city-img">
+          </a>
           <img
             class="city-img"
             src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
@@ -51,14 +57,21 @@
             alt="kolkata"
           />
         </div>
-        <a href="./index.html">View more>>></a>
-    </div>
-    <footer>
-      <div id="contact-us">
-        <a href="./contact.html" target="_blank">Contact Us</a>
+        <a id="view" href="./index.html">View more>>></a>
       </div>
+
+      
+      <div class="height"></div>
+      <footer>
+          <div id="contact-us">
+          <a  href="./contact.html" target="_blank">Contact Us</a>
+        </div>
+        <div id="copyright">
+          <p >&#169; 2020 ROOM SEARCH PVT.LTD</p>
+        </div>
+
         <div class="links">
-            <a href="https://www.facebook.com/" target="_blank"
+          <a href="https://www.facebook.com/" target="_blank"
             ><img
               src="./assests/images/facebook.png"
               alt="facebook"
@@ -80,8 +93,7 @@
               width="22px" /></a
           ><br />
         </div>
-        &#169; 2020 ROOM SEARCH PVT.LTD
-    </footer>
-  </div>
- </body>
+      </footer>
+    </div>
+  </body>
 </html>
