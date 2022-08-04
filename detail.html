@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/detail.css">
     <title>Detail</title>
 </head>
 <body>
@@ -16,7 +17,8 @@
     </header>
     <div>
     <div id="content">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson blu">
+        <img id="detail-img" class="big-img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson blu">
+        <div id="hotel-form">
         <form action="./payment.html">
             <label for="adults">Adults:</label>
             <input type="number" min="1" name="adults" required><br>
@@ -35,7 +37,8 @@
     
             <button>Book Now</button>
             </form>
-
+        </div>
+        <div id="hotel-description">
         <h2>Radisson Blu Hotel</h2>
         <p>Rating</p>
         <p>5 Star</p>
@@ -50,17 +53,16 @@
         <h5>DESCRIPTION</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam, recusandae expedita nobis, iusto dolorem nihil voluptate blanditiis non quasi veniam, laudantium distinctio adipisci aliquam corporis quis. Assumenda, provident dolor ducimus qui eum odio.</p>
     </div>
-    <div>
-        <p>Footer Div</p>
-        <footer>
+</div>
+    <footer>
         <div id="contact-us"> <a href="./contact.html" target="_blank">Contact Us</a></div>
         <div class="links">
              <a href="https://www.facebook.com/" target="_blank"><img src="./assests/images/facebook.png" alt="facebook" height="20px" width="22px"></a>
              <a href="https://www.instagram.com/" target="_blank"><img src="./assests/images/instagram.png" alt="instagram" height="20px" width="22px"></a>
              <a href="https://www.twitter.com/" target="_blank"><img src="./assests/images/twitter.png" alt="twitter" height="20px" width="22px"></a><br>
-        </footer>
+        </div>
         &#169; 2020 ROOM SEARCH PVT.LTD
-    </div>
+    </footer>
 </div>
 </body>
 </html>
