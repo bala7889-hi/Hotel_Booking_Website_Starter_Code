@@ -14,14 +14,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 75%;
+    flex-basis: 65%;
 }
 .big-img{
     max-height: 350px;
     max-width: 500px;
 }
 #hotel-form{
-    flex-basis: 25%;
+    flex-basis: 35%;
     height: 400px;
     border-left: 1px solid black;
 }
@@ -41,9 +41,10 @@
 }
 .label-input input{
     flex: 1 0 60%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 .label-input label,.adjust{
-    margin-right: 2%;
     flex: 1 0 30%;
     flex-grow: 0;
 }
