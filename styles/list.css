@@ -20,3 +20,6 @@
 .description{
     margin-left: 2%;
 }
+#star{
+    z-index:4;
+}
